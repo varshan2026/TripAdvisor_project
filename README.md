@@ -13,5 +13,5 @@
 - **HTML**: For structuring the content and layout.
 - **CSS**: For styling, including hover effects and responsive design techniques.
 
-##Check it out
+## Check it out
 View on mobile to experience the mobile-first approach: 
