@@ -143,6 +143,18 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
+    nav{
+        justify-content: space-between;
+    }
+
+    .navbar__s2, .navbar__s3{
+        display: none;
+    }
+
+    .navbar__s4{
+        display: block;
+    }
+
     .banner__img img {
         object-fit: none;
         object-position: 80%;
@@ -151,11 +163,11 @@
     }
 
     .banner-nav__list {
-        column-gap: 30px;
+        column-gap: 25px;
     }
 
     .card {
-        padding: 0 50px;
+        padding: 0 25px;
     }
 
     .card-model__1 {
