@@ -172,7 +172,9 @@ nav {
     column-gap: 20px;
     margin-top: 30px;
     overflow-x: auto;
+    scrollbar-width: none; 
 }
+
 
 /* ---------------------- card-model__box 1 -------------------------------*/
 
