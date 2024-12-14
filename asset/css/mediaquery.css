@@ -33,9 +33,15 @@
 
     .banner__img img {
         object-fit: none;
-        object-position: 35%;
+        object-position: 85%;
+        border-radius: 0;
         width: 100%;
         height: 450px;
+    }
+
+    .banner__content {
+        left: 45px;
+        bottom: 45px;
     }
 
     .card {
@@ -48,6 +54,9 @@
         margin-top: 50px;
     }
 
+    .card-box {
+        margin-top: 50px;
+    }
 
     .card-model{
         margin-top: 20px;
@@ -100,6 +109,10 @@
         width: 100%;
     }
 
+    .award-card {
+        margin-top: 50px;
+    }
+
     .award-card-block__content button {
         width: 55%;
     }
@@ -119,6 +132,14 @@
 
     .award-card-block__content p {
         font-size: 18px; 
+    }
+
+    .sponser img{
+        width: 40px;
+    }
+
+    .sponser{
+        margin-bottom: 20px;
     }
 
     footer{
@@ -157,13 +178,19 @@
 
     .banner__img img {
         object-fit: none;
-        object-position: 80%;
+        object-position: 100%;
         width: 100%;
         height: 500px;
+        border-radius: 0;
     }
 
     .banner-nav__list {
         column-gap: 25px;
+    }
+
+    .banner__content {
+        bottom: 50px;
+        left: 50px;
     }
 
     .card {

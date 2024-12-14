@@ -147,6 +147,46 @@ nav {
 .banner__img {
     text-align: center;
     margin-top: 40px;
+    position: relative;
+}
+
+.banner__img img{
+    border-radius: 20px;
+    filter: brightness(60%);
+}
+
+.banner__img img:hover{
+    filter: brightness(100%);
+}
+
+.banner__content{
+    text-align: left;
+    position: absolute;
+    bottom: 80px;
+    left: 200px;
+}
+
+.banner__content h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.banner__content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.banner__content button{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
 }
 
 /* -------------------------- card & card-model ------------------------------- */
@@ -181,7 +221,7 @@ nav {
 
 .card-model__box1 img{
     border-radius: 10px;
-    filter: brightness(65%);
+    filter: brightness(75%);
     width: 300px;
 }
 
@@ -231,6 +271,10 @@ nav {
     width: 300px;
 }
 
+.card-model__box3 img:hover{
+    filter: brightness(100%);
+}
+
 .card-model__box3 .favourit{
     width: 8%;
     position: absolute;
@@ -268,7 +312,7 @@ nav {
 
 .card-model__box4 img{
     border-radius: 10px;
-    filter: brightness(65%);
+    filter: brightness(75%);
     margin-bottom: 10px;
 }
 
@@ -284,6 +328,7 @@ nav {
     margin-top: 30px;
     overflow-x: auto;
     position: relative;
+    scrollbar-width: none;
 }
 
 .card-model__box1 h1{
@@ -416,7 +461,7 @@ nav {
 footer{
     margin-top: 55px;
     padding: 35px 0;
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(238, 238, 238);
     color: rgb(0, 0, 0);
 }
 
