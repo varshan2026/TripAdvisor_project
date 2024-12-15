@@ -8,10 +8,6 @@
 - **Hover Effects:** Interactive hover effects on images for a polished and dynamic user experience.
 - **Fully Responsive Layout:** Adapts perfectly to various screen sizes and devices.
 - **Clean and Simple Code:** Built entirely using HTML and CSS, making it a great project for beginners to understand the core of HTML & CSS.
-
-## Technologies Used
-- **HTML**: For structuring the content and layout.
-- **CSS**: For styling, including hover effects and responsive design techniques.
-
+  
 ## Check it out
-View on mobile to experience the mobile-first approach: 
+View on mobile to experience the mobile-first approach: https://varshan2026.github.io/TripAdvisor_project/
